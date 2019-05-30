@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ChatBoth</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/typing-animation.css">
+    <script src="./assets/js/store.js"></script>
+    <script src="./assets/js/controller.js"></script>
+    <script src="./assets/js/typing-animation.js"></script>
+    <script src="./assets/js/dictionary.js"></script>
+    <script src="./assets/js/appetizer.js"></script>
+    <script src="./assets/js/chatboy.js"></script>
+    <script src="./assets/js/chatbox.js"></script>
+</head>
+<body>
+    <div class="no-gutter">
+        <div class="position-top">
+            <div class="container nav d-flex justify-content-between">
+                <h2 class="brand_name d-inline-flex">
+                    Chat both
+                </h2>
+                <div class="circle-image">U</div>
+            </div>
+        </div>
+        <div class="content position-middle">
+            <div class="aside-content">
+                <ul>
+                    <li>Are you boring</li>
+                    <li>Ask a question</li>
+                    <li>Search for Location</li>
+                    <li>Medical treatment</li>
+                    <li>Ask about security</li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="chat-marker">
+                    <span>
+                        this is the begining of your chat.
+                    </span>
+                </div>
+                <ul class="main">
+                    <!-- <li>
+                        <span class="author">me</span>
+                        <span class="float-right">Hi</span>
+                    </li>
+                    <li>
+                        <span>Hi</span>
+                        <span class="author float-right">akolade</span>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="position-bottom">
+            <div class="container bottom-wrapper">
+                <input type="text" id="chat_box_input" name="chat text">
+                <button id="send_btn" onclick="handleSubmit()" type="submit">send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
